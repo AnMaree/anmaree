@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  color: rgba(24,24,24,.9);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased!important;
+  -webkit-font-feature-settings: 'lnum','tnum';
+  -moz-font-feature-settings: 'lnum','tnum';
+  -ms-font-feature-settings: 'lnum','tnum';
+  -o-font-feature-settings: 'lnum','tnum';
+  font-feature-settings: 'lnum','tnum';
+}
+
+a {
+  font-weight: 500;
+  color: #0095b1;
+  outline: none;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  font-weight: 500;
+  color: #ab0478;
+  text-decoration: none;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.site {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.site-content {
+  overflow: hidden;
+  position: relative;
+  min-height: calc(100vh);
+  z-index: 0;
+}
+
+.page {
+  margin-top: 10.5rem;
+}
+
+img {
+  max-width: 100%;
+}
