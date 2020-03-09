@@ -90,7 +90,6 @@ class App extends Component {
                     <h5>Designed and coded with <img className="react-icon" src={react} alt="react" /> by AnMaree.</h5>
                   </footer>
                 </ScrollToTop>
-                
               </div>
             </CSSTransition>
           </TransitionGroup>
