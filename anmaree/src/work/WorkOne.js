@@ -147,7 +147,7 @@ class WorkOne extends Component {
           </div>
         </section>
         <section className="py-8 py-lg-10 bg-light">
-          <div className="container px-5 px-lg-8">
+          <div className="container px-4 px-lg-8">
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
@@ -156,10 +156,10 @@ class WorkOne extends Component {
                       <h1 className="display-4 mb-4">The Design Thinking Process</h1>
                       <p>I start my projects with The Design Thinking Process, a nonlinear method described by The Hasso Plattner Institute of Design at Stanford. While using this approach at SeedInvest, I aimed to understand our users, challenge ideas, and build solutions for ambiguous problems in an industry where laws and regulations are rapidly changing.</p>
                     </div> 
-                    <div className="section-content mt-7">
+                    <div className="section-content mt-7 d-none d-md-block">
                       <div className="progress transparent">
                         <div className="progress-bar m-1 bg-si-bluechill"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -167,7 +167,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Empathize</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-bluechill"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -175,7 +175,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Define</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-seafoam"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -183,7 +183,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Ideate</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-seafoam"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -191,7 +191,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Prototype</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-olivine"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -199,7 +199,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Test</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-olivine"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -207,7 +207,7 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Build</span>
                         </div>
                         <div className="progress-bar m-1 bg-si-sunshine"
-                             role="progressbar"
+                             role="progressbarOne"
                              aria-valuenow="14.28"
                              aria-valuemin="14.28"
                              aria-valuemax="14.28"
@@ -215,8 +215,44 @@ class WorkOne extends Component {
                           <span className="sr-only text-white font-weight-bold">Deploy</span>
                         </div>       
                       </div>
-                      <img className="process-img" src={process} alt="process" />
                     </div>
+                    <div className="section-content mt-7 d-md-none">
+                      <div className="progress transparent small">
+                        <div className="progress-bar m-1 bg-si-bluechill"
+                             role="progressbar"
+                             aria-valuenow="25%"
+                             aria-valuemin="25%"
+                             aria-valuemax="25%"
+                             style={{width: "25%"}}>
+                          <span className="sr-only text-white font-weight-bold">Empathize</span>
+                        </div>
+                        <div className="progress-bar m-1 bg-si-seafoam"
+                             role="progressbar"
+                             aria-valuenow="25%"
+                             aria-valuemin="25%"
+                             aria-valuemax="25%"
+                             style={{width: "25%"}}>
+                          <span className="sr-only text-white font-weight-bold">Prototype</span>
+                        </div>
+                        <div className="progress-bar m-1 bg-si-olivine"
+                             role="progressbar"
+                             aria-valuenow="25%"
+                             aria-valuemin="25%"
+                             aria-valuemax="25%"
+                             style={{width: "25%"}}>
+                          <span className="sr-only text-white font-weight-bold">Test & Build</span>
+                        </div>
+                        <div className="progress-bar m-1 bg-si-sunshine"
+                             role="progressbar"
+                             aria-valuenow="25%"
+                             aria-valuemin="25%"
+                             aria-valuemax="25%"
+                             style={{width: "25%"}}>
+                          <span className="sr-only text-white font-weight-bold">Deploy</span>
+                        </div>       
+                      </div>
+                    </div>
+                    <img className="process-img" src={process} alt="process" />
                     <div className="section-content mt-7 text-center">
                       <p className="lead text-muted">(The above is for representational purposes only)</p>
                     </div>            
@@ -227,7 +263,7 @@ class WorkOne extends Component {
           </div>
         </section>
         <section className="py-8 py-lg-16">
-          <div className="container px-5 px-lg-8">
+          <div className="container px-4 px-lg-8">
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
@@ -252,7 +288,7 @@ class WorkOne extends Component {
           </div>
         </section>
         <section className="py-8 py-lg-16 bg-dark">
-          <div className="container px-5 px-lg-8">
+          <div className="container px-4 px-lg-8">
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
@@ -265,7 +301,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-content text-center text-white">
                       <div className="row">
-                        <div className="col-12 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3">
                           <div className="snippet mt-5">
                             <div className="snippet-header">
                               <div className="snippet-title font-weight-bold">Landing Pages</div>
@@ -277,7 +313,7 @@ class WorkOne extends Component {
                             </div>
                           </div>
                         </div>
-                        <div className="col-12 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3">
                           <div className="snippet mt-5">
                             <div className="snippet-header">
                               <div className="snippet-title font-weight-bold">Corporate Pages</div>
@@ -289,7 +325,7 @@ class WorkOne extends Component {
                             </div>
                           </div>
                         </div>
-                        <div className="col-12 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3">
                           <div className="snippet mt-5">
                             <div className="snippet-header">
                               <div className="snippet-title font-weight-bold">Education Pages</div>
@@ -301,7 +337,7 @@ class WorkOne extends Component {
                             </div>
                           </div>
                         </div>
-                        <div className="col-12 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3">
                           <div className="snippet mt-5">
                             <div className="snippet-header">
                               <div className="snippet-title font-weight-bold">Campaign Profiles</div>
@@ -355,7 +391,7 @@ class WorkOne extends Component {
                     <div className="section-content mx-5 p-5 bg-teal">
                       <div class="snippet p-3 bg-teal-dark">
                         <div className="video-wrapper">
-                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%">
+                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
                             <source src={ProcessVideo} type="video/mp4" />
                           </video>
                         </div>
@@ -385,7 +421,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-content mt-7">
                       <div className="laptop-mask-wrapper">
-                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%">
+                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
                           <source src={HomeVideo} type="video/mp4" />
                         </video>
                       </div>
@@ -397,7 +433,7 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">2016</div>
+                              <div className="snippet-title count display-4 font-weight-bold">2016</div>
                               <p>Before Updates</p>
                             </div>
                           </div>
@@ -405,7 +441,7 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">12k</div>
+                              <div className="snippet-title count display-4 font-weight-bold">12k</div>
                               <p>Total Investors</p>
                             </div>
                           </div>
@@ -413,15 +449,15 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">$5M</div>
+                              <div className="snippet-title count display-4 font-weight-bold">$5M</div>
                               <p>Total Invested</p>
                             </div>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col d-none d-md-block">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">40</div>
+                              <div className="snippet-title count display-4 font-weight-bold">40</div>
                               <p>Startups Funded</p>
                             </div>
                           </div>
@@ -436,7 +472,7 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">2019</div>
+                              <div className="snippet-title count display-4 font-weight-bold">2019</div>
                               <p>After Updates</p>
                             </div>
                           </div>
@@ -444,7 +480,7 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">250k</div>
+                              <div className="snippet-title count display-4 font-weight-bold">250k</div>
                               <p>Total Investors</p>
                             </div>
                           </div>
@@ -452,12 +488,12 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">$150M</div>
+                              <div className="snippet-title count display-4 font-weight-bold">$150M</div>
                               <p>Total Invested</p>
                             </div>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col d-none d-md-block">
                           <div className="snippet">
                             <div className="snippet-header">
                               <div className="snippet-title display-4 font-weight-bold">150</div>
@@ -474,7 +510,7 @@ class WorkOne extends Component {
           </div>
         </section>
         <section className="section py-8 py-lg-10 border-bottom">
-          <div className="container px-5 px-lg-8 ">
+          <div className="container px-4 px-lg-8 ">
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
@@ -511,33 +547,6 @@ class WorkOne extends Component {
                   </section>
                 </div>    
               </div>   
-            </div>
-          </div>
-        </section>
-        <section className="py-8">
-          <div className="container text-center px-5 px-md-8">
-            <div className="container-header text-uppercase py-5 ">
-              <h5>Check Out More Work</h5>
-              <p className="font-weight-normal"></p>
-            </div>
-            <div className="section-content">
-              <div className="row">
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/2">
-                    <img className="work-img" src={workCoverTwoSmall} alt="work" />
-                  </Link>
-                </div>
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/3">
-                    <img className="work-img" src={workCoverThreeSmall} alt="work" />
-                  </Link>
-                </div>
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/4">
-                    <img className="work-img" src={workCoverFourSmall} alt="work" />
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </section>

@@ -77,6 +77,19 @@
   background: black;
 }
 
+.display-4 {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+}
+
+.snippet.count .snippet-title {
+  font-size: 2rem;
+}
 
 .pt-8,
 .py-8 {
@@ -852,6 +865,15 @@ img.react-icon {
   height: 5rem;
 }
 
+.progress.small .sr-only{
+  width: 21%;
+  height: 2rem;
+  clip: auto;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
 .sr-only {
   width: 14.28%;
   height: 2rem;
@@ -950,10 +972,10 @@ img.react-icon {
 }
 
 .ReactGridGallery_custom-overlay[style] {
+  width: 90%!important;
   height: 4rem!important;
-  width: 100%;
-  bottom: 0px;
-  left: 0px;
+  bottom: 3rem!important;
+  left: 2rem!important;
   background: white;
   padding: 1rem;
   font-size: 1.4rem;

@@ -14,6 +14,7 @@ import workCoverTwoSmall from '../imgs/work-two-cover-small.jpg';
 import workCoverThreeSmall from '../imgs/work-three-cover-small.jpg';
 import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
 import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
+import CoverSmall from '../imgs/mobile-conver-img.png';
 
 import '../css/animations.css';
 
@@ -60,7 +61,10 @@ class Work extends Component {
     const hoveredRightClass = hoveredRight ? "animated shake infinite slow" : "";
     return (
       <section>
-        <div className="hero-block container position-relative">
+        <div className="hero-mobile container d-md-none">
+          <img src={CoverSmall} alt="cover-small" />
+        </div>
+        <div className="hero-block container position-relative d-none d-md-block">
           <div className="hero-wrapper bg-peach">
             <div className="hero-block-header">
               <div className="row">

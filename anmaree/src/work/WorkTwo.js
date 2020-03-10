@@ -182,7 +182,7 @@ class WorkOne extends Component {
                           <h5 className="snippet-label">Project Details</h5>
                         </div>
                         <div className="snippet-content">
-                          <h3>Lead Product Designer</h3>
+                          <h3 class="text-left">Lead Product Designer</h3>
                           <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing, Front-End Development.</p>
                           <hr/>
                           <p>1 Designer, 4 Developers, 1 Project Manager</p>
@@ -371,7 +371,7 @@ class WorkOne extends Component {
                   <section className="my-5 col-12 col-md-11 mx-auto">
                     <div className="section-content my-5">
                         <div className="video-wrapper product-img box-shadow">
-                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%">
+                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
                             <source src={AppVideo} type="video/mp4" />
                           </video>
                         </div>
@@ -398,7 +398,7 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12">
                   <section className="container mb-7 text-center">
-                    <div className="section-header mb-5 col-lg-8 mx-auto text-white">
+                    <div className="section-header mb-5 col-lg-9 mx-auto text-white">
                       <h1 className="display-4 mb-4">Product Impact</h1>
                       <p>The onboarding process was easily the biggest design challenge at SeedInvest due to its complexity and ever-evolving nature. Every department was involved in the research, brainstorming, and planning for this project, and it continues to be an iterative process for the team. The new pre-qualification, application, and profile builder features have been in effect since 2019 and show promising results. The workspace is still evolving.</p>
                     </div>                
@@ -406,7 +406,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-content mt-7">
                       <div className="laptop-mask-wrapper">
-                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%">
+                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
                           <source src={RaiseVideo} type="video/mp4" />
                         </video>
                       </div>
@@ -439,7 +439,7 @@ class WorkOne extends Component {
                             </div>
                           </div>
                         </div>
-                        <div className="col">
+                        <div className="col d-none d-md-block">
                           <div className="snippet">
                             <div className="snippet-header">
                               <div className="snippet-title display-4 font-weight-bold">65</div>
@@ -453,33 +453,6 @@ class WorkOne extends Component {
                 </div>
               </div>    
             </div>   
-          </div>
-        </section>
-        <section className="py-8">
-          <div className="container text-center px-5 px-md-8">
-            <div className="container-header text-uppercase py-5 ">
-              <h5>Check Out More Work</h5>
-              <p className="font-weight-normal"></p>
-            </div>
-            <div className="section-content">
-              <div className="row">
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/3">
-                    <img className="work-img" src={workCoverThreeSmall} alt="work" />
-                  </Link>
-                </div>
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/4">
-                    <img className="work-img" src={workCoverFourSmall} alt="work" />
-                  </Link>
-                </div>
-                <div className="col-12 col-md-4 mb-5">
-                  <Link to="/work/5">
-                    <img className="work-img" src={workCoverFiveSmall} alt="work" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </div>
