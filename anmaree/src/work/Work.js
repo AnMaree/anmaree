@@ -111,7 +111,7 @@ class Work extends Component {
             </div>
           </div>
         </div>
-        <div className="container work-cover-wrapper my-5 my-md-7">
+        <div className="container work-cover-wrapper my-5 my-md-5 my-lg-7">
           <div className="row">
             <div className="col-12 col-md-6 my-5">
               <div className="work-item overflow-hidden">
