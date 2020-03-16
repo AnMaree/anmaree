@@ -4,17 +4,11 @@ import heroFront from '../imgs/hero-front.png';
 import heroStill from '../imgs/still.jpg';
 import heroLeft from '../imgs/hero-left.png';
 import heroRight from '../imgs/hero-right.png';
-import workCoverOne from '../imgs/work-one-cover.jpg';
-import workCoverTwo from '../imgs/work-two-cover.jpg';
-import workCoverThree from '../imgs/work-three-cover.jpg';
-import workCoverFour from '../imgs/work-four-cover.jpg';
-import workCoverFive from '../imgs/work-five-cover.jpg';
-import workCoverOneSmall from '../imgs/work-one-cover-small.jpg';
-import workCoverTwoSmall from '../imgs/work-two-cover-small.jpg';
-import workCoverThreeSmall from '../imgs/work-three-cover-small.jpg';
-import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
-import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
-import CoverSmall from '../imgs/mobile-conver-img.png';
+import workCoverOne from '../imgs/work-covers-01.png';
+import workCoverTwo from '../imgs/work-covers-02.png';
+import workCoverOneSmall from '../imgs/work-covers-small-01.png';
+import workCoverTwoSmall from '../imgs/work-covers-small-02.png';
+import CoverSmall from '../imgs/hero-small.png';
 
 import '../css/animations.css';
 
@@ -29,27 +23,27 @@ class Work extends Component {
   LeftMouseEnter = e => {
     this.TimeInLeft = setTimeout(() => {
       this.setState({ hoveredLeft: true });
-    }, 350);
+    }, 400);
   };
 
   LeftMouseLeave = e => {
     clearTimeout(this.TimeInLeft);
     setTimeout(() => {
       this.setState({ hoveredLeft: false });
-    }, 350);
+    }, 500);
   };
 
   RightMouseEnter = e => {
     this.TimeInRight = setTimeout(() => {
       this.setState({ hoveredRight: true });
-    }, 350);
+    }, 400);
   };
 
   RightMouseLeave = e => {
     clearTimeout(this.TimeInRight);
     setTimeout(() => {
       this.setState({ hoveredRight: false });
-    }, 350);
+    }, 500);
   };
 
   render() {
@@ -57,8 +51,10 @@ class Work extends Component {
     const styleFront = hoveredLeft || hoveredRight ? { opacity: "0" } : { opacity: "1" };
     const styleLeft = hoveredLeft ? { opacity: "1" } : { opacity: "0" };
     const styleRight = hoveredRight ? { opacity: "1" } : { opacity: "0" };
-    const hoveredLeftClass = hoveredLeft ? "animated tada infinite" : "";
-    const hoveredRightClass = hoveredRight ? "animated shake infinite slow" : "";
+    
+    const LeftHover = hoveredLeft ? "tada animated infinite" : "";
+    const RightHover = hoveredRight ? "tada animated infinite" : "";
+
     return (
       <section>
         <div className="hero-mobile container d-md-none">
@@ -85,35 +81,29 @@ class Work extends Component {
               <img style={styleRight} className="head-image right" src={heroRight} alt="hero-right" />
               <img className="head-image back" src={heroStill} alt="hero-still" />
             </div>
-            <div className="image-holder left-shapes"> 
-              <div className={"header-shapes blue-square " + hoveredLeftClass}></div>
-              <div className={"header-shapes orange-triangle " + hoveredLeftClass}></div>
-              <div className={"header-shapes white-dotted-line " + hoveredLeftClass}></div>
-              <div className={"header-shapes coral-zig-zag-line " + hoveredLeftClass}></div>
-              <div className={"header-shapes white-dashed-circle " + hoveredLeftClass}></div>
-              <div className={"header-shapes orange-circle " + hoveredLeftClass}></div>
-              <div className={"header-shapes blue-dotted-radius " + hoveredLeftClass}></div>
-              <div className={"header-shapes coral-stripped-square " + hoveredLeftClass}></div>
-              <div className={"header-shapes white-circle-rectangle " + hoveredLeftClass}></div>
-              <div className={"header-shapes white-diamond " + hoveredLeftClass}></div>
-              <div className={"header-shapes orange-diamond " + hoveredLeftClass}></div>
-              <div className={"header-shapes coral-diamond " + hoveredLeftClass}></div>
+            <div className="image-holder left-shapes">
+              <div className={"header-shapes orange-circle " + LeftHover}></div>
+              <div className={"header-shapes blue-dotted-radius " + LeftHover}></div>
+              <div className={"header-shapes blue-square " + LeftHover}></div>
+              <div className={"header-shapes white-dotted-line " + LeftHover}></div>
+              <div className={"header-shapes orange-triangle " + LeftHover}></div>
+              <div className={"header-shapes coral-zig-zag-line " + LeftHover}></div>
+              <div className={"header-shapes white-dashed-circle " + LeftHover}></div>
             </div>
-            <div className="image-holder right-shapes"> 
-              <div className={"header-shapes white-slash-line " + hoveredRightClass}></div>
-              <div className={"header-shapes green-dashed-triangle " + hoveredRightClass}></div>
-              <div className={"header-shapes green-fb-dashed-line " + hoveredRightClass}></div>
-              <div className={"header-shapes white-plus-square " + hoveredRightClass}></div>
-              <div className={"header-shapes green-carrot " + hoveredRightClass}></div>
-              <div className={"header-shapes blue-dotted-line " + hoveredRightClass}></div>
-              <div className={"header-shapes blue-comment " + hoveredRightClass}></div>
-              <div className={"header-shapes blue-diamond " + hoveredRightClass}></div>
+            <div className="image-holder right-shapes">
+              <div className={"header-shapes coral-stripped-square " + RightHover}></div>
+              <div className={"header-shapes white-circle-rectangle " + RightHover}></div>
+              <div className={"header-shapes white-diamond " + RightHover}></div>
+              <div className={"header-shapes orange-diamond " + RightHover}></div>
+              <div className={"header-shapes coral-diamond " + RightHover}></div>
+              <div className={"header-shapes white-slash-line " + RightHover}></div>
+              <div className={"header-shapes green-dashed-triangle " + RightHover}></div>
             </div>
           </div>
         </div>
-        <div className="container work-cover-wrapper my-5 my-md-5 my-lg-7">
+        <div className="container work-cover-wrapper my-4 my-md-7">
           <div className="row">
-            <div className="col-12 col-md-6 my-5">
+            <div className="col-12 col-md-6 my-4 my-md-5">
               <div className="work-item overflow-hidden">
                 <div className="work-item-inner">
                   <Link to="/work/1">
@@ -123,7 +113,7 @@ class Work extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 my-5">
+            <div className="col-12 col-md-6 my-4 my-md-5">
               <div className="work-item overflow-hidden">
                 <div className="work-item-inner">
                   <Link to="/work/2">

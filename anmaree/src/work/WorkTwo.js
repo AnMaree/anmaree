@@ -12,7 +12,6 @@ import AppVideo from '../videos/app-video.mp4';
 import PreOnboarding from '../imgs/work-two/pre-onboarding-2.gif';
 import WorkSpace from '../imgs/work-two/workspace.png';
 import Hero from '../imgs/work-two/hero.png';
-import MoreWork from './MoreWork';
 import RaiseVideo from '../videos/apply.mp4'
 
 import GallerySiteMap from '../imgs/work-two/gallery/sitemap.jpg';
@@ -34,10 +33,6 @@ import GalleryDashboardV5 from '../imgs/work-two/gallery/dashboard-v5.jpg';
 
 import GalleryAnnotations from '../imgs/work-two/gallery/onboarding-profile-annotations.gif';
 import GalleryProfile from '../imgs/work-two/gallery/profile.jpg';
-
-import workCoverThreeSmall from '../imgs/work-three-cover-small.jpg';
-import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
-import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
 
 const IMAGES = [
   {
@@ -182,7 +177,7 @@ class WorkOne extends Component {
                           <h5 className="snippet-label">Project Details</h5>
                         </div>
                         <div className="snippet-content">
-                          <h3 class="text-left">Lead Product Designer</h3>
+                          <h3 className="text-left">Lead Product Designer</h3>
                           <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing, Front-End Development.</p>
                           <hr/>
                           <p>1 Designer, 4 Developers, 1 Project Manager</p>
@@ -371,7 +366,7 @@ class WorkOne extends Component {
                   <section className="my-5 col-12 col-md-11 mx-auto">
                     <div className="section-content my-5">
                         <div className="video-wrapper product-img box-shadow">
-                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
+                          <video className="video" preload="none" autoPlay loop width="100%" playsInline>
                             <source src={AppVideo} type="video/mp4" />
                           </video>
                         </div>
@@ -406,7 +401,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-content mt-7">
                       <div className="laptop-mask-wrapper">
-                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
+                        <video className="final-video" preload="none" autoPlay loop width="100%" playsInline>
                           <source src={RaiseVideo} type="video/mp4" />
                         </video>
                       </div>

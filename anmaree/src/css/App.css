@@ -535,17 +535,13 @@ img.react-icon {
   overflow: hidden;
 }
 
-.image-holder {
-  position: relative;
-  margin: 0 auto;
-}
-
 .head-image{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
+  transition: opacity 0.01s linear;
 }
 
 .head-image.left,
@@ -608,258 +604,188 @@ img.react-icon {
   }
 }
 
+.image-holder {
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-shapes.hover,
+.header-shape-wrapper.hover {
+  animation-play-state: running;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+@keyframes RotateCounterClockWise {
+  50% {transform: rotate(-1080deg);}
+}
+
+.rotate-counter-clockwise {
+  animation: RotateCounterClockWise 30s linear infinite;
+  animation-play-state: paused; 
+}
+
+@keyframes RotateClockWise {
+  50% {transform: rotate(1080deg);}
+}
+
+.rotate-clockwise {
+  animation: RotateClockWise 30s linear infinite;
+  animation-play-state: paused; 
+}
+
+
+
+.moveUpDown {
+  animation: moveUpDown 30s infinite linear;
+  animation-play-state: paused; 
+}
+
+
+@keyframes moveUpDown {
+  50% {
+    transform: translateY(50px) translateX(-50px);
+  }
+}
+
+.moveDownUp {
+  animation: moveDownUp 30s infinite linear;
+  animation-play-state: paused; 
+}
+
+
+@keyframes moveDownUp {
+  50% {
+    transform: translateY(50px) translateX(-50px);
+  }
+}
+
+
 
 .header-shapes {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 0;
   height: auto;
-  -moz-transition: all .2s steps(2, end);
-  -o-transition: all .2s steps(2, end);
-  -webkit-transition: all .2s steps(2, end);
-  transition: all .2s steps(2, end);
 }
 
 .blue-square {
-  background: url("../imgs/hero-group/blue-square.png") no-repeat 0 0;
-  left: -12%;
-  width: 22%;
+  background: url("../imgs/hero-group/new/1.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 11%;
-  margin-top: -11%;
+  left: -8%;
+  padding: 16% 11%;
+  margin-top: -18%;
 }
 
 .orange-triangle {
-  background: url("../imgs/hero-group/orange-triangle.png") no-repeat 0 0;
-  left: -12%;
-  width: 22%;
+  background: url("../imgs/hero-group/new/2.png") no-repeat 0 0;
   background-size: 100%;
+  left: 25%;
   padding: 11%;
-  margin-top: 6%;
+  margin-top: -8%;
 }
 
 .white-dotted-line {
-  background: url("../imgs/hero-group/white-dotted-line.png") no-repeat 0 0;
-  left: 2.5%;
-  width: 0rem;
-  background-size: 3%;
-  padding: 16%;
-  margin-top: 26%;
+  background: url("../imgs/hero-group/new/3.png") no-repeat 0 0;
+  background-size: 100%;
+  left: 28%;
+  padding: 3.2%;
+  margin-top: 11%;
 }
 
 .coral-zig-zag-line {
-  background: url("../imgs/hero-group/coral-zig-zag-line.png") no-repeat 0 0;
-  left: 7.5%;
+  background: url("../imgs/hero-group/new/4.png") no-repeat 0 0;
+  background-size: 100%;
+  left: -8%;
   width: 0rem;
-  background-size: 12%;
-  padding: 13%;
-  margin-top: 43%;
+  padding: 11%;
+  margin-top: 40%;
 }
 
 .white-dashed-circle {
-  background: url("../imgs/hero-group/white-dashed-circle.png") no-repeat 0 0;
-  left: 15.5%;
-  width: 0;
+  background: url("../imgs/hero-group/new/5.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 20%;
-  margin-top: 29.6%;
+  left: 22%;
+  padding: 7%;
+  margin-top: 37.5%;
 }
 
 .blue-dotted-radius {
-  background: url("../imgs/hero-group/blue-dotted-radial.png") no-repeat 0 0;
-  left: 21.5%;
-  width: 0;
+  background: url("../imgs/hero-group/new/6.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 11%;
-  margin-top: 38.6%;
+  left: 0%;
+  padding: 26%;
+  margin-top: -38%;
 }
 
 .orange-circle {
-  background: url("../imgs/hero-group/organe-circle.png") no-repeat 0 0;
-  left: 27.5%;
-  width: 0;
+  background: url("../imgs/hero-group/new/7.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 11%;
-  margin-top: 34.6%;
+  left: -9%;
+  padding: 32% 25%;
+  margin-top: 49%;
 }
 
 .coral-stripped-square {
-  background: url("../imgs/hero-group/coral-stripped-square.png") no-repeat 0 0;
-  left: 25.5%;
-  width: 0;
+  background: url("../imgs/hero-group/new/8.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 4%;
-  margin-top: 7.6%;
+  left: 60.5%;
+  padding: 10% 8%;
+  margin-top: -13%;
 }
 
 .white-circle-rectangle {
-  background: url("../imgs/hero-group/white-circle-rectangle.png") no-repeat 0 0;
-  left: 17.8%;
-  width: 0;
+  background: url("../imgs/hero-group/new/9.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 6%;
-  margin-top: 4.8%;
+  left: 90%;
+  padding: 10% 8%;
+  margin-top: -4%;
 }
 
 .white-diamond {
-  background: url("../imgs/hero-group/white-diamond.png") no-repeat 0 0;
-  left: 43%;
-  width: 0;
+  background: url("../imgs/hero-group/new/10.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 1.6%;
-  margin-top: 4.5%;
+  left: 91%;
+  padding: 10% 9%;
+  margin-top: 34%;
 }
 
 .orange-diamond {
-  background: url("../imgs/hero-group/orange-diamond.png") no-repeat 0 0;
-  left: 46.5%;
-  width: 0;
+  background: url("../imgs/hero-group/new/11.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 2.2%;
-  margin-top: 3.8%;
-}
-
-.coral-diamond {
-  background: url("../imgs/hero-group/coral-diamond.png") no-repeat 0 0;
-  left: 44.8%;
-  width: 0;
-  background-size: 100%;
-  padding: 1.9%;
-  margin-top: 4%;
-}
-
-.white-slash-line {
-  background: url("../imgs/hero-group/white-slash-line.png") no-repeat 0 0;
-  left: 70%;
-  width: 0;
-  background-size: 100%;
-  padding: 16%;
-  margin-top: -2%;
-}
-
-.green-dashed-triangle {
-  background: url("../imgs/hero-group/green-dashed-triangle.png") no-repeat 0 0;
-  left: 62%;
-  width: 0;
-  background-size: 100%;
-  padding: 4%;
-  margin-top: 7%;
-}
-
-.green-fb-dashed-line {
-  background: url("../imgs/hero-group/green-fb-dashed-line.png") no-repeat 0 0;
-  left: 49%;
-  width: 0;
-  background-size: 100%;
-  padding: 22%;
-  margin-top: 39%;
-}
-
-.white-plus-square {
-  background: url("../imgs/hero-group/white-plus-square.png") no-repeat 0 0;
-  left: 64%;
-  width: 0;
-  background-size: 100%;
-  padding: 10%;
-  margin-top: 36%;
-}
-
-.green-carrot {
-  background: url("../imgs/hero-group/green-carrot.png") no-repeat 0 0;
-  left: 90%;
-  width: 0;
-  background-size: 100%;
-  padding: 10%;
-  margin-top: 53.5%;
-}
-
-.blue-dotted-line {
-  background: url("../imgs/hero-group/blue-dotted-line.png") no-repeat 0 0;
-  left: 97%;
-  width: 0rem;
-  background-size: 3%;
-  padding: 13%;
+  left: 53%;
+  padding: 10% 9%;
   margin-top: 30%;
 }
 
-.blue-comment {
-  background: url("../imgs/hero-group/blue-comment.png") no-repeat 0 0;
-  left: 86%;
-  width: 15%;
+.coral-diamond {
+  background: url("../imgs/hero-group/new/12.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 6%;
-  margin-top: 6%;
+  left: 54%;
+  padding: 6% 5%;
+  margin-top: 9%;
 }
 
-.blue-diamond {
-  background: url("../imgs/hero-group/blue-diamond.png") no-repeat 0 0;
-  left: 48.8%;
-  width: 0;
+.white-slash-line {
+  background: url("../imgs/hero-group/new/13.png") no-repeat 0 0;
   background-size: 100%;
-  padding: 2.2%;
-  margin-top: 4%;
+  left: 73%;
+  padding: 21%;
+  margin-top: -23%;
 }
 
-.blue-square.hovered {
-  left: -12%;
-  margin-top: -11%;
+.green-dashed-triangle {
+  background: url("../imgs/hero-group/new/14.png") no-repeat 0 0;
+  background-size: 100%;
+  left: 60%;
+  padding: 20%;
+  margin-top: 48%;
 }
 
-.orange-triangle.hovered {
-  left: -12%;
-  margin-top: 6%;
-}
-
-.white-dotted-line.hovered {
-  left: 2.5%;
-  margin-top: 26%;
-}
-
-.coral-zig-zag-line.hovered {
-  left: 7.5%;
-  margin-top: 43%;
-}
-
-.white-dashed-circle.hovered {
-  left: 15.5%;
-  margin-top: 29.6%;
-}
-
-.blue-dotted-radius.hovered {
-  left: 21.5%;
-  margin-top: 38.6%;
-}
-
-.orange-circle.hovered {
-  left: 27.5%;
-  margin-top: 34.6%;
-}
-
-.coral-stripped-square.hovered {
-  left: 25.5%;
-  margin-top: 7.6%;
-}
-
-.white-circle-rectangle.hovered {
-  left: 17.8%;
-  margin-top: 4.8%;
-}
-
-.white-diamond.hovered {
-  left: 43%;
-  margin-top: 4.5%;
-}
-
-.orange-diamond.hovered {
-  left: 46.5%;
-  margin-top: 3.8%;
-}
-
-.coral-diamond.hovered {
-  left: 44.8%;
-  margin-top: 4%;
-}
 
 .progress {
   height: 5rem;
@@ -1086,14 +1012,16 @@ hr.light {
   border-radius: 10px
 }
 
-.work-cover-wrapper .row {
-  margin-right: -30px;
-  margin-left: -30px;
-}
+@media (min-width: 768px) {
+  .work-cover-wrapper .row {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
 
-.work-cover-wrapper .col-12 {
-  padding-right: 30px;
-  padding-left: 30px;
+  .work-cover-wrapper .col-12 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .product-img {

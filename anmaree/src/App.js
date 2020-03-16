@@ -8,17 +8,12 @@ import NotFound from "./NotFound";
 import Work from "./work/Work";
 import WorkOne from "./work/WorkOne";
 import WorkTwo from "./work/WorkTwo";
-import WorkThree from "./work/WorkThree";
-import WorkFour from "./work/WorkFour";
-import WorkFive from "./work/WorkFive";
-import Studies from "./studies/Studies";
 import Bio from "./bio/Bio";
 import Resume from "./resume/Resume";
 import logo from './logo.svg';
 import codepen from './imgs/icons/codepen.png';
 import dribble from './imgs/icons/dribbble.png';
 import github from './imgs/icons/github.png';
-import instagram from './imgs/icons/instagram.png';
 import linkedin from './imgs/icons/linkedin.png';
 import react from './imgs/icons/react.png';
 import './css/App.css';
@@ -57,10 +52,6 @@ class App extends Component {
                         <Route exact path="/" component={Work}/>
                         <Route exact path="/work/1" component={WorkOne}/>
                         <Route exact path="/work/2" component={WorkTwo}/>
-                        <Route exact path="/work/3" component={WorkThree}/>
-                        <Route exact path="/work/4" component={WorkFour}/>
-                        <Route exact path="/work/5" component={WorkFive}/>
-                        <Route path="/studies" component={Studies}/>
                         <Route path="/bio" component={Bio}/>
                         <Route path="/resume" component={Resume}/>
                         <Route component={NotFound}/>

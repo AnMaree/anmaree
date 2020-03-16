@@ -11,10 +11,10 @@ class MainNav extends Component {
             <NavLink exact to="/" activeClassName='active'>Work</NavLink>
           </li>
           <li>
-            <NavLink to="/bio" activeClassName='active'>About</NavLink>
+            <NavLink to="/bio" activeClassName='active'>About Me</NavLink>
           </li>
           <li>
-            <a href={Resume} target="_blank"><span class="small">⬇</span> Resume</a>
+            <a href={Resume} target="_blank"><span className="small">⬇</span> Resume</a>
           </li>
         </ul>
       </nav>

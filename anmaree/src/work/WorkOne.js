@@ -1,14 +1,14 @@
 import React, { Component} from 'react';
 import { Link } from "react-router-dom";
 import Gallery from 'react-grid-gallery';
-import MoreWork from './MoreWork';
 
 import process from '../imgs/process.png';
-import MacBookMask from '../imgs/mackbookmask.png';
 import ProcessVideo from '../videos/process-video.mp4'
 import HomeVideo from '../videos/home.mp4'
-import StyleGuide from '../imgs/work-one/styleguide.jpg';
-import StyleGuideSmall from '../imgs/work-one/styleguide-small.jpg';
+import StyleGuide from '../imgs/work-one/styleguide.png';
+import DesignSystem from '../imgs/work-one/design-systems.gif';
+
+import StyleGuideSmall from '../imgs/work-one/styleguide-small.png';
 
 import heroMockup from '../imgs/invest-in-startups-hero.png';
 import wireframeOne from '../imgs/wireframe-1.png';
@@ -24,18 +24,8 @@ import Profile from '../imgs/work-one/profile.jpg';
 import ThumbProfile from '../imgs/work-one/thumb-profile.jpg';
 import Academy from '../imgs/work-one/academy.jpg';
 import ThumbAcademy from '../imgs/work-one/thumb-academy.jpg';
-import Raise from '../imgs/work-one/raise.jpg';
-import ThumbRaise from '../imgs/work-one/thumb-raise.jpg';
 import Invest from '../imgs/work-one/invest.jpg';
 import ThumbInvest from '../imgs/work-one/thumb-invest.jpg';
-import RegA from '../imgs/work-one/reg-a.jpg';
-import ThumbRegA from '../imgs/work-one/thumb-reg-a.jpg';
-
-import workCoverOneSmall from '../imgs/work-one-cover-small.jpg';
-import workCoverTwoSmall from '../imgs/work-two-cover-small.jpg';
-import workCoverThreeSmall from '../imgs/work-three-cover-small.jpg';
-import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
-import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
 
 const IMAGES = [
   {
@@ -131,7 +121,7 @@ class WorkOne extends Component {
                           <h5 className="snippet-label">Project Details</h5>
                         </div>
                         <div className="snippet-content">
-                          <h3 class="text-left">Lead Product Designer</h3>
+                          <h3 className="text-left">Lead Product Designer</h3>
                           <p>Product Planning, User Research, Information Architecture, Interaction design, Visual design, Prototyping, Testing, Front-End Development, Wordpress Development.</p>
                           <hr/>
                           <p>1 Designer, 2 Developers, 1 Project Manager</p>
@@ -158,96 +148,41 @@ class WorkOne extends Component {
                     </div> 
                     <div className="section-content mt-7 d-none d-md-block">
                       <div className="progress transparent">
-                        <div className="progress-bar m-1 bg-si-bluechill"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-bluechill" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Empathize</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-bluechill"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-bluechill" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Define</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-seafoam"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-seafoam" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Ideate</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-seafoam"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-seafoam" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Prototype</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-olivine"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-olivine" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Test</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-olivine"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-olivine" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Build</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-sunshine"
-                             role="progressbarOne"
-                             aria-valuenow="14.28"
-                             aria-valuemin="14.28"
-                             aria-valuemax="14.28"
-                             style={{width: "14.28%"}}>
+                        <div className="progress-bar m-1 bg-si-sunshine" style={{width: "14.28%"}}>
                           <span className="sr-only text-white font-weight-bold">Deploy</span>
                         </div>       
                       </div>
                     </div>
                     <div className="section-content mt-7 d-md-none">
                       <div className="progress transparent small">
-                        <div className="progress-bar m-1 bg-si-bluechill"
-                             role="progressbar"
-                             aria-valuenow="25%"
-                             aria-valuemin="25%"
-                             aria-valuemax="25%"
-                             style={{width: "25%"}}>
+                        <div className="progress-bar m-1 bg-si-bluechill" style={{width: "25%"}}>
                           <span className="sr-only text-white font-weight-bold">Empathize</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-seafoam"
-                             role="progressbar"
-                             aria-valuenow="25%"
-                             aria-valuemin="25%"
-                             aria-valuemax="25%"
-                             style={{width: "25%"}}>
+                        <div className="progress-bar m-1 bg-si-seafoam" style={{width: "25%"}}>
                           <span className="sr-only text-white font-weight-bold">Prototype</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-olivine"
-                             role="progressbar"
-                             aria-valuenow="25%"
-                             aria-valuemin="25%"
-                             aria-valuemax="25%"
-                             style={{width: "25%"}}>
+                        <div className="progress-bar m-1 bg-si-olivine" style={{width: "25%"}}>
                           <span className="sr-only text-white font-weight-bold">Test & Build</span>
                         </div>
-                        <div className="progress-bar m-1 bg-si-sunshine"
-                             role="progressbar"
-                             aria-valuenow="25%"
-                             aria-valuemin="25%"
-                             aria-valuemax="25%"
-                             style={{width: "25%"}}>
+                        <div className="progress-bar m-1 bg-si-sunshine" style={{width: "25%"}}>
                           <span className="sr-only text-white font-weight-bold">Deploy</span>
                         </div>       
                       </div>
@@ -268,19 +203,38 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12">
                   <section className="mb-5">
-                    <div className="section-header mb-7 col-md-10 m-auto">
+                    <div className="section-header mb-5 mb-md-7 col-11 col-md-8 m-auto">
                       <h1 className="display-4 mb-4">Empathize & Define</h1>
                       <p>The first step was to understand the Non-Accredited Investor and the emotional queues we wanted to leverage in our visual language. Using empathy maps and findings from Behavioral Finance, we created a new persona and style guide that would help us communicate our brand’s three main pillars: personal, professional, and premium.</p>
                     </div> 
-                  </section>
-                  <section className="text-center">
                     <div className="section-content text-white mb-5 text-center">
                       <img className="style-guide-img d-none d-md-block" src={StyleGuide} alt="StyleGuide" />
-                      <img className="style-guide-img d-md-none px-5" src={StyleGuideSmall} alt="StyleGuideSmall" />
+                      <img className="style-guide-img d-md-none" src={StyleGuideSmall} alt="StyleGuideSmall" />
                     </div>
                     <div className="section-content mt-7 text-center">
                       <p className="lead text-muted">(And much much more!)</p>
                     </div>  
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-8 py-lg-16 bg-light">
+          <div className="container px-4 px-lg-8">
+            <div className="section-content">
+              <div className="row">
+                <div className="col-12">
+                  <section className="mb-5">
+                    <div className="section-header mb-5 mb-md-7 col-11 col-md-8 m-auto">
+                      <h1 className="display-4 mb-4">The SI Design System</h1>
+                      <p>While making updates to the overall brand aesthetic, I created the SI Design System Library, an internal tool that stores all of our product design components in one place. Each section and its components have design and code examples, making this documentation extremely useful for the business, design, and development teams. We have seen huge leaps in productivity across the entire company when using this library, and it continues to be used for every new product build.</p>
+                    </div> 
+                  </section>
+                  <section className="text-center">
+                    <div className="section-content col-11 col-md-12 m-auto text-white mb-5 text-center">
+                      <img className="style-guide-img box-shadow" src={DesignSystem} alt="DesignSystem" />
+                    </div>
                   </section>
                 </div>
               </div>
@@ -389,9 +343,9 @@ class WorkOne extends Component {
                       <p>The landing pages, corporate pages, and campaign profiles were prototyped and built in <strong>Python on Django</strong> and with <strong>Angular</strong>. I decided to build the Academy of <strong>Wordpress</strong> because of time constraints and the need for a content management system (CMS) that business teams could use to regularly update posts. We used several organization and prioritization tools like <strong>Trello</strong> and <strong>Jira</strong> to increase transparency and boost productivity amongst our team.</p>
                     </div>
                     <div className="section-content mx-5 p-5 bg-teal">
-                      <div class="snippet p-3 bg-teal-dark">
+                      <div className="snippet p-3 bg-teal-dark">
                         <div className="video-wrapper">
-                          <video className="video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
+                          <video className="video" preload="none" autoPlay loop width="100%" webkit-playsinline="true" playsInline>
                             <source src={ProcessVideo} type="video/mp4" />
                           </video>
                         </div>
@@ -421,7 +375,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-content mt-7">
                       <div className="laptop-mask-wrapper">
-                        <video className="final-video" preload="none" autoplay="autoplay" loop="loop" width="100%" webkit-playsinline="true" playsinline="true">
+                        <video className="final-video" preload="none" autoPlay loop width="100%" webkit-playsinline="true" playsInline>
                           <source src={HomeVideo} type="video/mp4" />
                         </video>
                       </div>
@@ -524,15 +478,15 @@ class WorkOne extends Component {
                           <h4 className="snippet-title">Measuring Success Is Tricky</h4>
                         </div>
                         <div className="snippet-content">
-                          <p>The activity on the platform is highly dependent on which companies that are fundraising at any given time. AB Testing or looking at KPI trends, for example, was not always helpful in these circumstances. We learned that going forward we would need to survey customers, request feedback, and analyze customer tickets more diligently.</p>
+                          <p>The activity on the platform is highly dependent on which companies are fundraising at any given time. A/B Testing and KPI trends were not always helpful in these circumstances. We learned that we should request feedback often, analyze customer tickets diligently, and survey customers on their wants and needs.</p>
                         </div>
                       </div>
                       <div className="snippet mb-5">
                         <div className="snippet-header">
-                          <h4 className="snippet-title">Process Is Key</h4>
+                          <h4 className="snippet-title">Process Oranization Is Key</h4>
                         </div>
                         <div className="snippet-content">
-                          <p>With a project as big as this, it was important to track where each feature was in the process. Each feature needed to be designed, tested, and built at different times, but needed to be deployed together for platform consistency.</p>
+                          <p>With a project as big as this, it was important to track the progress of each feature. Features needed to be designed, tested, and built at different times, but needed to be deployed together for platform consistency. This is when collaboration tools became handy. </p>
                         </div>
                       </div>
                       <div className="snippet mb-5">
