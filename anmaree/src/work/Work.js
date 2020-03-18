@@ -6,8 +6,12 @@ import heroLeft from '../imgs/hero-left.png';
 import heroRight from '../imgs/hero-right.png';
 import workCoverOne from '../imgs/work-covers-01.png';
 import workCoverTwo from '../imgs/work-covers-02.png';
+import workCoverThree from '../imgs/work-covers-03.png';
+import workCoverFour from '../imgs/work-covers-04.png';
 import workCoverOneSmall from '../imgs/work-covers-small-01.png';
 import workCoverTwoSmall from '../imgs/work-covers-small-02.png';
+import workCoverThreeSmall from '../imgs/work-covers-small-03.png';
+import workCoverFourSmall from '../imgs/work-covers-small-04.png';
 import CoverSmall from '../imgs/hero-small.png';
 
 import '../css/animations.css';
@@ -122,6 +126,14 @@ class Work extends Component {
                   </Link>
                 </div>
               </div>
+            </div>
+            <div className="col-12 col-md-6 my-4 my-md-5">
+              <img className="work-img d-none d-md-block" src={workCoverThree} alt="work" />
+              <img className="work-img d-md-none" src={workCoverThreeSmall} alt="work" />
+            </div>
+            <div className="col-12 col-md-6 my-4 my-md-5">
+              <img className="work-img d-none d-md-block" src={workCoverFour} alt="work" />
+              <img className="work-img d-md-none" src={workCoverFourSmall} alt="work" />
             </div>
           </div>          
         </div>
