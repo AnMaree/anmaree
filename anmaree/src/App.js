@@ -8,6 +8,7 @@ import NotFound from "./NotFound";
 import Work from "./work/Work";
 import WorkOne from "./work/WorkOne";
 import WorkTwo from "./work/WorkTwo";
+import WorkThree from "./work/WorkThree";
 import Bio from "./bio/Bio";
 import Resume from "./resume/Resume";
 import logo from './logo.svg';
@@ -52,6 +53,7 @@ class App extends Component {
                         <Route exact path="/" component={Work}/>
                         <Route exact path="/work/1" component={WorkOne}/>
                         <Route exact path="/work/2" component={WorkTwo}/>
+                        <Route exact path="/work/3" component={WorkThree}/>
                         <Route path="/bio" component={Bio}/>
                         <Route path="/resume" component={Resume}/>
                         <Route component={NotFound}/>
