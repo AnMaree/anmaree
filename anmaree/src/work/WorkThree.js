@@ -6,7 +6,7 @@ import Launch from '../imgs/work-three/launch.png';
 import Wireframes from '../imgs/work-three/wireframes.jpg';
 import Prototypes from '../imgs/work-three/mockups.png';
 import MobileMockups from '../imgs/work-three/mobile-mockups.png';
-import RaiseVideo from '../videos/apply.mp4'
+import Video from '../videos/event.mp4'
 
 import PersonaOrganizer from '../imgs/work-three/persona-organizer.png';
 import PersonaFounder from '../imgs/work-three/persona-founder.png';
@@ -21,6 +21,10 @@ import FeedbackSix from '../imgs/work-three/feedback-06.png';
 import FeedbackSeven from '../imgs/work-three/feedback-07.png';
 import FeedbackEight from '../imgs/work-three/feedback-08.png';
 
+import Gantt from '../imgs/work-three/gantt-chart.png';
+import Process from '../imgs/work-three/process.png';
+import CreateEvent from '../imgs/work-three/create-event.png';
+
 import workCoverOneSmall from '../imgs/work-one-cover-small.jpg';
 import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
 import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
@@ -33,7 +37,6 @@ class WorkOne extends Component {
           <div className="hero-header-img position-relative overflow-hidden text-center bg-lime">
             <div class="container col">
               <div className="hero-back"><a href="/work/2">←</a></div>
-              <div className="hero-next"><a href="/work/4">→</a></div>
             </div>
             <div class="animated fadeIn">
               <div className="container col-10 col-md-8 col-lg-6 col-xl-5 mb-5 mx-auto">
@@ -57,9 +60,9 @@ class WorkOne extends Component {
                     </div>
 
                     <div className="section-content">
-                      <p>SeedInvest launches it's new feature "SeedInvest LIVE", an interactive experience that empowers startups to raise capital directly from attendees at Demo Day events. SeedInvest has partnered with demo events such as Launch Festival, eMerge Americas, and TechCrunch to connect startups with investors live.</p>
-                      <p>SeedInvest LIVE is an entirely new concept. To prepare, it was important to understand the needs of both the startups and the organization, ideate on features that will evoke the desired experience, produce low-fidelity prototypes, attempt to modularize defined features based on priority, then build our roadmap.</p>
-                      <p>Because our first event was only 4 weeks out, the design thinking process was challenged. We had to design and build based on our own hypotheses and overlook some crutial steps. Our first event provided many wins, however, it was not proven to be a sustainable product. Having the time to research, analyse, and define the problem before development is important to deliver new and sustainable products.</p>
+                      <p>SeedInvest moved into uncharted territory when partnering with Jason Calacanis to announce Live Investing at the 2017 LAUNCH Festival. This new concept would create an interactive experience that would empower startups to raise capital directly from attendees at the event. The challenge was to build a product that impressed event organizers, startups, and investors in just 4 weeks.</p>
+                      <p>With such a condensed timeline, we had to design and develop a product based on our assumptions and overlook some crucial steps in the design thinking process. The result was a product that provided many wins, but was ultimately not reusable for future events.</p>
+                      <p>We only truly hit our stride on the second iteration when we took a more user-centric approach. Taking the time to research, analyze, and define the problem before development proved to be a critical step in delivering a product that would support the many events in our pipeline and our ultimate mission to help startups raise capital.</p>
                     </div>                    
                   </section>
                 </div>
@@ -94,8 +97,8 @@ class WorkOne extends Component {
                 <div className="col-12">
                   <section className="mb-5">
                     <div className="section-header text-center mb-5 col-md-10 mx-auto">
-                      <h1 className="display-4 mb-4">Our First SeedInvest LIVE Event</h1>
-                      <p>SeedInvest partnered with Jason Calacanis to enable live investing at LAUNCH Festival. The LAUNCH Festival is considered the largest startup event in the United States and is attended by 12,000 investors and founders from around the world.</p>
+                      <h1 className="display-4 mb-4">Our First SeedInvest Live Event</h1>
+                      <p>SeedInvest partnered with Jason Calacanis to enable live investing at LAUNCH Festival. The LAUNCH Festival is considered the largest startup event in the United States and is attended by 12,000 investors and founders from around the world. Live crowdfunding was offered to a handful of startups that were listed on the SeedInvest platform. Each startup delivered a 3 minute pitch to a set of judges while audience members could invest on their mobile device or at the SeedInvest booth on the demo floor.</p>
                     </div>
                     <div className="section-content mt-7 col-lg-10 mx-auto text-center">
                       <img className="launch-img w-100" src={Launch} alt="launch" />
@@ -104,7 +107,7 @@ class WorkOne extends Component {
 
                   <section className="mt-7 col-lg-10 mx-auto text-center">
                     <div className="section-header mb-5">
-                      <h1 className="display-4 mb-4">Our Hypotheses</h1>
+                      <h1 className="display-4 mb-4">Our Assumptions</h1>
                     </div>
                     <div className="section-content mt-5">
                       <div className="row">
@@ -114,7 +117,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Build An Interactive Experience</p>
                             </div>
                             <div className="section-content">
-                              <p>Design an interactive leaderboard that will be displayed during the pitch events and on the demo floor. Once an investor makes an investment, it will be reflected in live-action on the leaderboard.</p>
+                              <p>Design an interactive leaderboard that would be displayed during the pitch events and on the demo floor. Once an investor invests, it would be reflected in real time on the leaderboard.</p>
                             </div>
                           </section>
                         </div>
@@ -124,7 +127,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Drive Investment Activity</p>
                             </div>
                             <div className="section-content">
-                              <p>Design an event page that displays the investable deals at the event. Investors may navigate to the SeedInvest LIVE event page to browse deals that are eligable for investment.</p>
+                              <p>Design an event page that displays the investable deals at the event. Investors could navigate to the SeedInvest LIVE event page to browse deals that were eligible for investment.</p>
                             </div>
                           </section>
                         </div>
@@ -134,7 +137,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Get To Know The Startups</p>
                             </div>
                             <div className="section-content">
-                              <p>Design a simple mobile startup profile that allows attendees to learn about the companies from anywhere on the demo floor, not just at their booth.</p>
+                              <p>Design a simple mobile startup profile that allowed attendees to learn about the companies from anywhere on the demo floor, not just at their booth.</p>
                             </div>
                           </section>
                         </div>
@@ -144,7 +147,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Create Value For Other Startups</p>
                             </div>
                             <div className="section-content">
-                              <p>Design a feature that allows attendees to vote for their favorite startup at the event. This feature is for all the startups at the event, not just the investable ones.</p>
+                              <p>Design a feature that allowed attendees to vote for their favorite startup at the event. This feature included all of the startups at the event, not just the investable ones.</p>
                             </div>
                           </section>
                         </div>
@@ -288,7 +291,7 @@ class WorkOne extends Component {
                               <h4 className="section-title display-4 font-weight-bold">#1</h4>
                             </div>
                             <div className="section-content">
-                              <p>The interactive experienced did not make the strong impact we hoped.</p>
+                              <p>The interactive experience did not build engagment like we hoped it would.</p>
                             </div>
                           </section>
                         </div>
@@ -308,7 +311,7 @@ class WorkOne extends Component {
                               <h4 className="section-title display-4 font-weight-bold">#3</h4>
                             </div>
                             <div className="section-content">
-                              <p>The recorded presentations were very valuable, but not utilites on profiles.</p>
+                              <p>Other startups at the event were unaware of the voting feature we built for them.</p>
                             </div>
                           </section>
                         </div>
@@ -338,7 +341,7 @@ class WorkOne extends Component {
                   <section className="mb-5">
                     <div className="section-header text-center mb-5 col-md-10 mx-auto">
                       <h1 className="display-4 mb-4">Back To The Drawing Board</h1>
-                      <p>After reviewing the results, collecting feedback from the startups and the organization, and identifying the problem, it was clear we needed to invest more time into the intiation design thinking process. We created personas for each stakeholder, developed process storyboards, and identified the high priorty features to prototype. This would help us produce a more sustainable product.</p>
+                      <p>After reviewing the results, collecting feedback, and identifying the problems, it was clear we needed to invest more time into the initiation design thinking process. We created personas for each stakeholder, defined the types of events in our pipeline, prioritized our efforts, built out the user process end-to-end, then developed our roadmap to accomplish our goal.</p>
                     </div>
                     <div className="section-content mt-7 my-5 col-xl-10 mx-auto text-center">
                       <img className="persona-img w-100 box-shadow" src={PersonaOrganizer} alt="launch" />
@@ -433,10 +436,12 @@ class WorkOne extends Component {
                   </section>
                   <section className="mt-7 col-lg-10 mx-auto text-center">
                     <div className="section-header mb-5">
-                      <h1 className="display-4 mb-4">Partnership Process Storyboard</h1>
+                      <h1 className="display-4 mb-4">Partnership Process Flow Chart</h1>
                     </div>
                     <div className="section-content mt-5">
-                      <p>Storyboarding</p>
+                      <div className="process-wrapper mb-5 box-shadow">
+                        <img className="process" src={Process} alt="work" />
+                      </div>
                     </div>
                   </section>
                   <section className="mt-7 col-lg-10 mx-auto text-center">
@@ -448,10 +453,10 @@ class WorkOne extends Component {
                         <div className="col-12 col-md-6">
                           <section className="mb-5 p-5 bg-white box-shadow">
                             <div className="section-header">
-                              <p className="section-title font-weight-bold">Bring the interactive experience online.</p>
+                              <p className="section-title font-weight-bold">Evoke the essence of the event online.</p>
                             </div>
                             <div className="section-content">
-                              <p>Design an event page that can switch to different stages of the process: startup applications, investor pre-registration, and the investable live event page.</p>
+                              <p>Design an event page switches between different stages of the user process: startup applications, investor pre-registration, and the investable live event page.</p>
                             </div>
                           </section>
                         </div>
@@ -461,7 +466,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Get investors ready to invest before the event.</p>
                             </div>
                             <div className="section-content">
-                              <p>Design an oboarding flow that allows investors to pre-registration before the event. This way once the event goes live, investors are ready to invest with one click.</p>
+                              <p>Design an onboarding flow that allows investors to pre-register before the event. Once the event went live, investors would be ready to invest with one click.</p>
                             </div>
                           </section>
                         </div>
@@ -471,7 +476,7 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Make the investment checkout process frictionless.</p>
                             </div>
                             <div className="section-content">
-                              <p>Re-design a mobile friendly investment checkout process. This was already a priorty, but became high priorty to prepare a quick and mobile checkout.</p>
+                              <p>Re-design a mobile-friendly investment checkout. This was always important, but became an especially high priority to help us increase conversions during events.</p>
                             </div>
                           </section>
                         </div>
@@ -481,10 +486,20 @@ class WorkOne extends Component {
                               <p className="section-title font-weight-bold">Support the team with internal management tools.</p>
                             </div>
                             <div className="section-content">
-                              <p>Design an internal tool that enables the business teams to create and edit baisc event pages with little to no intervention from product.</p>
+                              <p>Design an internal tool that enables the business teams to create and edit basic event pages with little to no intervention from the product team.</p>
                             </div>
                           </section>
                         </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="mt-7 col-lg-10 mx-auto text-center">
+                    <div className="section-header mb-5">
+                      <h1 className="display-4 mb-4">Defining the RoadMap</h1>
+                    </div>
+                    <div className="section-content mt-5">
+                      <div className="gantt-wrapper mb-5 box-shadow">
+                        <img className="gantt w-100 p-5 bg-white" src={Gantt} alt="work" />
                       </div>
                     </div>
                   </section>
@@ -500,7 +515,7 @@ class WorkOne extends Component {
                 <section className="container">
                   <div className="section-header text-center mb-5 col-lg-9 mx-auto text-white">
                     <h1 className="display-4 mb-4">Ideating & Wireframing</h1>
-                    <p>During the ideation phase of the process, I produced details wireframes that illustrated our high priorty features. I also used wireframing to depict larger concepts that arross during brainstorming sessions.</p>
+                    <p>During the ideation phase, I produced detailed wireframes of the events page at each stage of the process. I also used wireframing to depict concepts that arose during brainstorming sessions.</p>
                   </div>
                 </section>
                 <section>
@@ -516,11 +531,13 @@ class WorkOne extends Component {
           <div className="section-content">
             <div className="row">
               <div className="col-12">
-                <section>
-                  <div className="section-header text-center col-md-6 mx-auto">
+                <section className="container">
+                  <div className="section-header text-center mb-5 col-lg-9 mx-auto">
                     <h1 className="display-4 mb-4">High-Fidelity Mockups & Prototypes</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Next, I turn the wireframes into high-fidelity mockups. My  main goals were to evoke the essence of the event, educate investors about the partnership, and bring the interactive leaderboard experience online. High-fidelity mockups were used to communicate how the page was going to transform contextually based on the event state. This was particularly helpful for the business team.</p>
                   </div>
+                </section>
+                <section>
                   <div className="section-content text-center">
                     <img className="prototypes-img w-100" src={Prototypes} alt="prototypes" />
                   </div>
@@ -529,38 +546,21 @@ class WorkOne extends Component {
             </div>
           </div>
         </section>
-        <section className="pt-8">
+        <section className="py-10 bg-light border-bottom border-top">
           <div className="container">
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
                   <section>
                     <div className="section-header text-center col-md-10 mx-auto mb-7">
-                      <h1 className="display-4 mb-4">One-Click Mobile Concept</h1>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <h1 className="display-4 mb-4">Internal Event Management</h1>
+                      <p>After building the prototypes, I built an internal tool to help the business team create and manage events with little to no intervention from the product team. The tool includes all of the required event fields and a preview feature, allowing business members to build beautiful, functional event landing pages with ease.</p>
                     </div>
-                    <div className="section-content text-center mb-7">
-                      <img className="prototypes-img w-100" src={MobileMockups} alt="prototypes" />
+                    <div className="section-content text-center">
+                      <img className="create-event-img w-100 box-shadow border" src={CreateEvent} alt="prototypes" />
                     </div>
                   </section>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="pt-8 bg-light border-bottom border-top">
-          <div className="section-content">
-            <div className="row">
-              <div className="col-12">
-                <section>
-                  <div className="section-header text-center col-md-6 mx-auto">
-                    <h1 className="display-4 mb-4">Create A New Event</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                  <div className="section-content text-center">
-                    <img className="prototypes-img w-100" src={Prototypes} alt="prototypes" />
-                  </div>
-                </section>
               </div>
             </div>
           </div>
@@ -573,14 +573,14 @@ class WorkOne extends Component {
                   <section className="container mb-7 text-center">
                     <div className="section-header mb-5 col-lg-9 mx-auto text-white">
                       <h1 className="display-4 mb-4">Product Impact</h1>
-                      <p>The onboarding process was easily the biggest design challenge at SeedInvest due to its complexity and ever-evolving nature. Every department was involved in the research, brainstorming, and planning for this project, and it continues to be an iterative process for the team. The new pre-qualification, application, and profile builder features have been in effect since 2019 and show promising results. The workspace is still evolving.</p>
+                      <p>SeedInvest Live was an exciting new way to think about investing. The product helped event organizers bring highly-vetted startups to their events, helped startups reach a larger investor audience, and helped SeedInvest build relationships with venture firms and accelerators to better serve startups raising on our platform. Using the design thinking process, we were able to build a product that would support a number of new events like TechCrunch Disrupt San Francisco, Websummit London, and eMerge Miami. The design changes helped increase investment conversion, grow investment volume, and build a stronger venture portfolio for the company.</p>
                     </div>                
                   </section>
                   <section>
                     <div className="section-content mt-7">
                       <div className="laptop-mask-wrapper">
                         <video className="final-video" preload="none" autoPlay loop width="100%" playsInline>
-                          <source src={RaiseVideo} type="video/mp4" />
+                          <source src={Video} type="video/mp4" />
                         </video>
                       </div>
                     </div> 
@@ -591,32 +591,32 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">40%</div>
-                              <p>Less Support Tickets</p>
+                              <div className="snippet-title display-4 font-weight-bold">0</div>
+                              <p>Product Intervention</p>
                             </div>
                           </div>
                         </div>
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">3x</div>
-                              <p>Faster Application Responses</p>
+                              <div className="snippet-title display-4 font-weight-bold">5</div>
+                              <p>New Events</p>
                             </div>
                           </div>
                         </div>
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">98%</div>
-                              <p>Accurate Auto Results</p>
+                              <div className="snippet-title display-4 font-weight-bold">2x</div>
+                              <p>Conversions Rate</p>
                             </div>
                           </div>
                         </div>
                         <div className="col d-none d-md-block">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">65</div>
-                              <p>Average Venture NPS</p>
+                              <div className="snippet-title display-4 font-weight-bold">$5.5M</div>
+                              <p>Amount Raised</p>
                             </div>
                           </div>
                         </div>
