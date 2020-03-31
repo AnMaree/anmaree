@@ -128,8 +128,14 @@ class Work extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 my-4 my-md-5">
-              <img className="work-img d-none d-md-block" src={workCoverThree} alt="work" />
-              <img className="work-img d-md-none" src={workCoverThreeSmall} alt="work" />
+              <div className="work-item overflow-hidden">
+                <div className="work-item-inner">
+                  <Link to="/work/3">
+                    <img className="work-img d-none d-md-block" src={workCoverThree} alt="work" />
+                    <img className="work-img d-md-none" src={workCoverThreeSmall} alt="work" />
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="col-12 col-md-6 my-4 my-md-5">
               <img className="work-img d-none d-md-block" src={workCoverFour} alt="work" />

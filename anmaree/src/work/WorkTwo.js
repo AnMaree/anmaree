@@ -142,12 +142,13 @@ class WorkOne extends Component {
           <div className="hero-header-img position-relative overflow-hidden text-center bg-mint">
             <div className="container col">
               <div className="hero-back"><Link to="/work/1">←</Link></div>
+              <div className="hero-next"><Link to="/work/3">→</Link></div>
             </div>
             <div className="container col-10 col-md-8 col-lg-6 col-xl-5 mb-5 mx-auto">
               <h1 className="display-3 font-weight-bold mb-4">Fundraise Online</h1>
               <h3 className="font-weight-normal">Onboarding startup companies to a fundraising campaign management platform.</h3>
             </div>
-            <div className="container col-12">
+            <div className="container col-12 px-5 pt-5">
               <img className="hero-img" src={Hero} alt="hero" />
             </div>
           </div>
@@ -158,8 +159,8 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12 col-md-7">
                   <section className="mb-5">
-                    <div className="section-header font-weight-bold text-uppercase mb-4">
-                      <h5 className="snippet-label">Overview</h5>
+                    <div className="section-header mb-5">
+                      <h1 className="display-4 mb-4">Project Overview</h1>
                     </div>
                     <div className="section-content">
                       <p>SeedInvest's mission is to transform the broken startup fundraising process in order to make it easier for entrepreneurs to raise capital. By bringing the fundraising process online, SeedInvest gives founders the ability to raise capital more efficiently.</p>
@@ -172,19 +173,12 @@ class WorkOne extends Component {
                 <div className="col-12 col-md-4">
                   <section className="mb-5">
                     <div className="section-content">
-                      <div className="snippet">
-                        <div className="snippet-header font-weight-bold text-uppercase mb-4">
-                          <h5 className="snippet-label">Project Details</h5>
-                        </div>
-                        <div className="snippet-content">
-                          <h3 className="text-left">Lead Product Designer</h3>
-                          <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing, Front-End Development.</p>
-                          <hr/>
-                          <p>1 Designer, 4 Developers, 1 Project Manager</p>
-                          <hr/>
-                          <p>2 Years | Partial Deploy 2019</p>
-                        </div>
-                      </div>                   
+                      <div className="section-header mb-5">
+                        <h2 className="mb-4">Lead Product Designer</h2>
+                      </div>
+                      <div className="section-content">
+                        <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing.</p>
+                      </div>
                     </div>                  
                   </section>
                 </div>      

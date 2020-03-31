@@ -43,7 +43,7 @@ class WorkOne extends Component {
               <h1 className="display-3 font-weight-bold mb-4">Live Startup Investing</h1>
                 <p className="font-weight-normal">Bringing equity crowdfunding to startup demo days world wide, allowing investors to invest LIVE.</p>
               </div>
-              <div class="container col-12">
+            <div className="container col-12 px-5 pt-5">
                 <img className="mockup-img" src={Hero} alt="heroMockup" />
               </div>
             </div>
@@ -55,10 +55,9 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12 col-md-7">
                   <section className="mb-5">
-                    <div className="section-header font-weight-bold text-uppercase mb-4">
-                      <h5 className="snippet-label">Overview</h5>
+                    <div className="section-header mb-5">
+                      <h1 className="display-4 mb-4">Project Overview</h1>
                     </div>
-
                     <div className="section-content">
                       <p>SeedInvest moved into uncharted territory when partnering with Jason Calacanis to announce Live Investing at the 2017 LAUNCH Festival. This new concept would create an interactive experience that would empower startups to raise capital directly from attendees at the event. The challenge was to build a product that impressed event organizers, startups, and investors in just 4 weeks.</p>
                       <p>With such a condensed timeline, we had to design and develop a product based on our assumptions and overlook some crucial steps in the design thinking process. The result was a product that provided many wins, but was ultimately not reusable for future events.</p>
@@ -70,22 +69,15 @@ class WorkOne extends Component {
                 <div className="col-12 col-md-4">
                   <section className="mb-5">
                     <div className="section-content">
-                      <div className="snippet">
-                        <div className="snippet-header font-weight-bold text-uppercase mb-4">
-                          <h5 className="snippet-label">Project Details</h5>
-                        </div>
-                        <div className="snippet-content">
-                          <h3 className="text-left">Lead Product Designer</h3>
-                          <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing, Front-End Development.</p>
-                          <hr/>
-                          <p>1 Designer, 4 Developers, 1 Project Manager</p>
-                          <hr/>
-                          <p>4 Months | Deploy 2017</p>
-                        </div>
-                      </div>                   
+                      <div className="section-header mb-5">
+                        <h2 className="mb-4">Lead Product Designer</h2>
+                      </div>
+                      <div className="section-content">
+                        <p>Product Planning, User Research, Stakeholder Interviews, Interaction design, Visual design, Prototyping, Testing.</p>
+                      </div>
                     </div>                  
                   </section>
-                </div>      
+                </div>  
               </div>   
             </div>
           </div>
@@ -607,16 +599,16 @@ class WorkOne extends Component {
                         <div className="col">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">2x</div>
-                              <p>Conversions Rate</p>
+                              <div className="snippet-title display-4 font-weight-bold">5,800</div>
+                              <p>Investors</p>
                             </div>
                           </div>
                         </div>
                         <div className="col d-none d-md-block">
                           <div className="snippet">
                             <div className="snippet-header">
-                              <div className="snippet-title display-4 font-weight-bold">$5.5M</div>
-                              <p>Amount Raised</p>
+                              <div className="snippet-title display-4 font-weight-bold">$10M</div>
+                              <p>Invested</p>
                             </div>
                           </div>
                         </div>
