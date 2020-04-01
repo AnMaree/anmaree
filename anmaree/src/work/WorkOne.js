@@ -31,6 +31,8 @@ import AcademyWireMobileTwo from '../imgs/work-one/wireframes/AcademyWireMobileT
 import CorporateAbout from '../imgs/work-one/mockups/CorporateAbout.jpeg';
 import CorporateTeam from '../imgs/work-one/mockups/CorporateTeam.jpeg';
 
+import DealTile from '../imgs/work-one/mockups/DealTile.jpg';
+
 import ProfileOne from '../imgs/work-one/mockups/ProfileOne.jpeg';
 import ProfileTwo from '../imgs/work-one/mockups/ProfileTwo.jpeg';
 import ProfileThree from '../imgs/work-one/mockups/ProfileThree.jpeg';
@@ -47,7 +49,9 @@ import AcademyMobileTwo from '../imgs/work-one/mockups/AcademyMobileTwo.jpeg';
 
 import Chart from '../imgs/work-one/chart.png';
 
-import HomeFull from '../imgs/work-one/mockups/HomeFull.png';
+import Home from '../imgs/work-one/mockups/HomeDesktopMobileFull.png';
+
+import HomeFull from '../imgs/work-one/mockups/HomeDesktopMobile.png';
 import heroMockup from '../imgs/work-one/hero-2.png';
 
 
@@ -167,7 +171,7 @@ class WorkOne extends Component {
                   <section>
                     <div className="section-header mb-5 col-11 col-lg-8 m-auto">
                       <h1 className="display-4 mb-4">The Design Process</h1>
-                      <p>To make changes that appeal to your new audience, the first step was to understand the less sophisticated investor and the emotional queues we wanted to leverage in our visual language. Using empathy maps and findings from Behavioral Finance, we created a new persona and built out a style guide that would help us communicate our brand’s three main pillars: personal, professional, and premium.</p>
+                      <p>The first step was to understand our new user type and the emotional queues we wanted to leverage in our visual language. Using empathy maps and findings from Behavioral Finance, we created a new persona and built out a style guide that would help us communicate our brand’s three main pillars: personal, professional, and premium.</p>
                     </div> 
                     <div className="section-content mb-5 mt-5">
                       <img className="style-guide-img d-none d-md-block" src={StyleGuide} alt="StyleGuide" />
@@ -356,8 +360,8 @@ class WorkOne extends Component {
                       <p>High-quality images of our most innovative startups are featured throughout the platform. A dark cobalt overlay creates bold, mystic energy. The home page is designed for conversion, with value-focused messaging and a centralized call-to-action. Our design system helped reinforce simple and effective layouts throughout our company pages.</p>
                     </div> 
                     <div className="section-content mb-5">
-                      <p className="lead text-secondary ml-4">Official Home Page | Mobile View</p>
-                      <img src={HomeFull} alt="homepagefull" />
+                      <p className="lead text-secondary">Home Page Desktop</p>
+                      <img className="homepage-wire-img" src={Home} alt="homepage" />
                     </div>
                   </section>
                   <section className="mb-5">
@@ -385,10 +389,16 @@ class WorkOne extends Component {
                     </div> 
                     <div className="section-content mb-5">
                       <div className="row">
-                        <div className="col-6 mb-5">
+                        <div className="col-3 mb-5">
+                          <p className="lead text-secondary">Deal Tile</p>
+                          <img className="homepage-wire-img box-shadow" src={DealTile} alt="homepage" />
+                        </div>
+                        <div className="col-9 mb-5">
                           <p className="lead text-secondary">Official Campaign Profile</p>
                           <img className="homepage-wire-img box-shadow" src={ProfileOne} alt="homepage" />
                         </div>
+                      </div>
+                      <div className="row">
                         <div className="col-6 mb-5">
                           <p className="lead text-secondary">Tooltip Details</p>
                           <img className="homepage-wire-img box-shadow" src={ProfileTwo} alt="homepage" />
@@ -396,10 +406,6 @@ class WorkOne extends Component {
                         <div className="col-6 mb-5">
                           <p className="lead text-secondary">Discussion Board</p>
                           <img className="homepage-wire-img box-shadow" src={ProfileThree} alt="homepage" />
-                        </div>
-                        <div className="col-6 mb-5">
-                          <p className="lead text-secondary">Citation Feature</p>
-                          <img className="homepage-wire-img box-shadow" src={ProfileFour} alt="homepage" />
                         </div>
                       </div>
                     </div>
@@ -454,6 +460,11 @@ class WorkOne extends Component {
                       <h1 className="display-4 mb-4">Product Impact</h1>
                       <p>As a result of many hours of careful research, brainstorming, planning, prototyping, and developing, the SeedInvest platform is a bold representation of the innovative companies that raise with us, with subtle elements communicating sophistication and promoting user trust. These updates have been live on SeedInvest since 2016 and have helped grow the company to its current status as one of the leading equity crowdfunding sites in the United States.</p>
                     </div>                
+                  </section>
+                  <section>
+                    <div className="section-content mb-5 col-11 col-lg-10 m-auto mb-7">
+                      <img src={HomeFull} alt="homepagefull" />
+                    </div>
                   </section>
                   <section>
                     <div className="section-content mb-5 col-11 col-lg-8 m-auto opacity-20">

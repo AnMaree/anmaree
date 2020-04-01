@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import Gallery from 'react-grid-gallery';
 
 import MessyProcess from '../imgs/work-two/messy-process.jpg';
 import Nps from '../imgs/work-two/nps.png';
@@ -15,124 +14,6 @@ import Hero from '../imgs/work-two/hero.png';
 import RaiseVideo from '../videos/apply.mp4'
 
 import GallerySiteMap from '../imgs/work-two/gallery/sitemap.jpg';
-
-import GalleryApply from '../imgs/work-two/gallery/apply.jpg';
-import GalleryApplyThumb from '../imgs/work-two/gallery/thumb-apply.jpg'
-
-import GalleryOnboarding from '../imgs/work-two/gallery/onboarding.gif';
-import GalleryPreOnboarding from '../imgs/work-two/gallery/pre-onboarding.gif';
-
-import GalleryTaskList from '../imgs/work-two/gallery/task-list.jpg';
-import GalleryTaskListThumb from '../imgs/work-two/gallery/thumb-task-list.jpg';
-
-import GalleryDashboardV1 from '../imgs/work-two/gallery/dashboard-v1.jpg';
-import GalleryDashboardV2 from '../imgs/work-two/gallery/dashboard-v2.jpg';
-import GalleryDashboardV3 from '../imgs/work-two/gallery/dashboard-v3.jpg';
-import GalleryDashboardV4 from '../imgs/work-two/gallery/dashboard-v4.jpg';
-import GalleryDashboardV5 from '../imgs/work-two/gallery/dashboard-v5.jpg';
-
-import GalleryAnnotations from '../imgs/work-two/gallery/onboarding-profile-annotations.gif';
-import GalleryProfile from '../imgs/work-two/gallery/profile.jpg';
-
-const IMAGES = [
-  {
-    src: GallerySiteMap,
-    thumbnail: GallerySiteMap,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Home Page - Deployed Design",
-    caption: "Home Page - Deployed Design"
-  },
-  {
-    src: GalleryApply,
-    thumbnail: GalleryApplyThumb,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Home Page - Deployed Design",
-    caption: "Home Page - Deployed Design"
-  },
-  {
-    src: GalleryOnboarding,
-    thumbnail: GalleryOnboarding,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Home Page - Deployed Design",
-    caption: "Home Page - Deployed Design"
-  },
-  {
-    src: GalleryPreOnboarding,
-    thumbnail: GalleryPreOnboarding,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryDashboardV5,
-    thumbnail: GalleryDashboardV5,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryDashboardV1,
-    thumbnail: GalleryDashboardV1,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryDashboardV2,
-    thumbnail: GalleryDashboardV2,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryDashboardV3,
-    thumbnail: GalleryDashboardV3,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryDashboardV4,
-    thumbnail: GalleryDashboardV4,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryAnnotations,
-    thumbnail: GalleryAnnotations,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryProfile,
-    thumbnail: GalleryProfile,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  },
-  {
-    src: GalleryTaskList,
-    thumbnail: GalleryTaskListThumb,
-    thumbnailWidth: 400,
-    thumbnailHeight: 300,
-    customOverlay: "Corporate - About Page",
-    caption: "Corporate - About Page"
-  }
-]
-
 
 class WorkOne extends Component {
   render() {
@@ -160,7 +41,7 @@ class WorkOne extends Component {
                 <div className="col-12 col-md-7">
                   <section className="mb-5">
                     <div className="section-header mb-5">
-                      <h1 className="display-4 mb-4">Project Overview</h1>
+                      <h1 className="display-4 mb-4">The Problem</h1>
                     </div>
                     <div className="section-content">
                       <p>SeedInvest's mission is to transform the broken startup fundraising process in order to make it easier for entrepreneurs to raise capital. By bringing the fundraising process online, SeedInvest gives founders the ability to raise capital more efficiently.</p>
@@ -193,7 +74,7 @@ class WorkOne extends Component {
                 <div className="col-12">
                   <section className="mb-7">
                     <div className="section-header text-center mb-7 col-md-8 mx-auto">
-                      <h1 className="display-4 mb-4">The Original Process</h1>
+                      <h1 className="display-4 mb-4">The Solution</h1>
                       <p>The original process was based on serving the company rather than serving the user. Founders were required to fill out a 60+ item questionnaire before being brought into our service. We tracked NPS scores at each step and saw that founders were passive users, neither emotionally invested nor disengaged.</p>
                     </div> 
                     <div className="section-content">
@@ -333,11 +214,6 @@ class WorkOne extends Component {
                       <h1 className="display-4 mb-4">Mockup & Prototype Explorations</h1>
                       <p>Redefining the onboarding process was a 4-year effort and went through a lot of different mockup and prototype variations. Below are different versions of the onboarding process that were explored during this time. Designs were created using <strong>Sketch</strong> and <strong>Adobe Creative Suites</strong>. Some features were also prototyped directly in <strong>HTML, CSS, and Vue.js</strong> on a developer branch to improve the engineering team’s velocity and overall collaboration.</p>
                     </div>               
-                  </section>
-                  <section>
-                    <div className="section-content ReactGridGalleryThreeColumns text-center">
-                      <Gallery images={IMAGES} backdropClosesModal={true} enableImageSelection={false} showCloseButton={false} />
-                    </div>
                   </section>
                   <section className="my-5 text-center">
                     <div className="my-5 col-12 mx-auto">
