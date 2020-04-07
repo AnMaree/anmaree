@@ -169,11 +169,11 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12">
                   <section>
-                    <div className="section-header mb-5 col-11 col-lg-8 m-auto">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">The Design Process</h1>
                       <p>The first step was to understand our new user type and the emotional queues we wanted to leverage in our visual language. Using empathy maps and findings from Behavioral Finance, we created a new persona and built out a style guide that would help us communicate our brand’s three main pillars: personal, professional, and premium.</p>
                     </div> 
-                    <div className="section-content mb-5 mt-5">
+                    <div className="section-content mt-7 mt-5">
                       <img className="style-guide-img d-none d-md-block" src={StyleGuide} alt="StyleGuide" />
                       <img className="style-guide-img d-md-none" src={StyleGuideSmall} alt="StyleGuideSmall" />
                     </div> 
@@ -187,11 +187,11 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12">
                   <section>
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">The SI Design System</h1>
                       <p>While making updates to the overall brand aesthetic, I created the SI Design System Library, an internal tool that stores all of our product design components in one place. Each section and its components have design and code examples, making this documentation extremely useful for the business, design, and development teams. We have seen huge leaps in productivity across the entire company when using this library, and it continues to be used for every new product build.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <img className="style-guide-img box-shadow" src={DesignSystem} alt="DesignSystem" />
                     </div>
                   </section>
@@ -207,11 +207,11 @@ class WorkOne extends Component {
               <div className="row">
                 <div className="col-12">
                   <section>
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Mapping The Information Architecture</h1>
                       <p>After researching our new user type and exploring the visual aesthetic with the team, I designed our information architecture, focusing on navigation, page content, and functionality. The grey nodes represent low-priority update needs, the teal nodes represent the high-priority needs, and the green nodes represent the function.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <img className="style-guide-img" src={Chart} alt="Chart" />
                     </div>
                   </section>
@@ -226,12 +226,12 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                  <section className="mb-7">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Rebranding Marketing Pages</h1>
                       <p>During the ideation phase, I created low-fidelity wireframes to gain stakeholder buy-in. Because our main goal was to increase conversion, I first focused on the "above the fold" design. I explored several experimental layouts that pushed against traditional landing page conventions. Ultimately, the team decided that a more classic high-conversion layout would help us reach our goal.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-6 mb-5">
                           <p className="lead text-secondary">Experimental Broken Grid</p>
@@ -252,12 +252,12 @@ class WorkOne extends Component {
                       </div>
                     </div>
                   </section>
-                  <section className="mb-5">
-                    <div className="section-header my-5 my-md-7 col-11 col-lg-8 m-auto">
+                  <section>
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h2 className="font-weight-normal mb-4">Creating a cohesive collection of corporate pages.</h2>
                       <p>Next, I built detailed wireframes based on the team's consensus. The corporate pages are laid out in single stacked pages, painting a clear picture of the company and drawing the user's attention to our values. I used our newly formed design system of pre-designed modules to create a collection of cohesive layouts.</p>
                     </div> 
-                    <div className="section-content">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-4 mb-5">
                           <p className="lead text-secondary">About Page (Stacked Layout)</p>
@@ -290,12 +290,12 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                  <section>
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Exploring Campaign Profiles</h1>
                       <p>After the corporate pages were well defined, we brainstormed ways to make the campaign profiles more informative to new investors. I wireframed possible education features including tooltips, slide-in sidebars FAQs, and a highlighting citation feature inspired by Medium. Because of scope restrictions, we decided to save the citation feature for a future iteration.</p>
                     </div> 
-                    <div className="section-content mt-5">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-6">
                           <p className="lead text-secondary">Particle Campaign Profile</p>
@@ -325,12 +325,12 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                  <section>
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Education Resources</h1>
                       <p>As we built educational features into the campaign profiles, we wanted to create more value for our community by providing more educational materials before browsing for a deal. This would also help build our reputation as thought-leaders in the space. Guides are to be created by business members with little intervention from the product team, thus the design solution needed to be scalable.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-6 mb-5">
                           <p className="lead text-secondary">Thumbnail Grid</p>
@@ -354,22 +354,22 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                  <section className="mb-7">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">The Visual Design</h1>
                       <p>High-quality images of our most innovative startups are featured throughout the platform. A dark cobalt overlay creates bold, mystic energy. The home page is designed for conversion, with value-focused messaging and a centralized call-to-action. Our design system helped reinforce simple and effective layouts throughout our company pages.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <p className="lead text-secondary">Home Page Desktop</p>
                       <img className="homepage-wire-img" src={Home} alt="homepage" />
                     </div>
                   </section>
-                  <section className="mb-5">
-                    <div className="section-header my-5 my-md-7 col-11 col-lg-8 m-auto">
+                  <section className="mb-7">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h2 className="font-weight-normal mb-4">Showcasing innovation, personal touch, professionalism, and trust.</h2>
                       <p>With our high-touch service, it was important to show the people behind the company. The team section includes a fun hover effect, revealing each team member's personality.</p>
                     </div> 
-                    <div className="section-content">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-6 mb-5">
                           <p className="lead text-secondary">Official About Page</p>
@@ -382,12 +382,12 @@ class WorkOne extends Component {
                       </div>
                     </div>
                   </section>
-                  <section className="mb-5">
-                    <div className="section-header my-5 my-md-7 col-11 col-lg-8 m-auto">
+                  <section className="mb-7">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h2 className="font-weight-normal mb-4">Helping new investors make informed investment decisions.</h2>
                       <p>Taking a mobile-first approach, the campaign profiles were designed to highlight the startup's fundraising. We included an Investor FAQs section, tooltips for unfamiliar terms, and a discussion board feature to help new investors post questions to founders.</p>
                     </div> 
-                    <div className="section-content mb-5">
+                    <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-3 mb-5">
                           <p className="lead text-secondary">Deal Tile</p>
@@ -426,12 +426,12 @@ class WorkOne extends Component {
                       </div>
                     </div>
                   </section>
-                  <section className="mb-5">
-                    <div className="section-header my-5 my-md-7 col-11 col-lg-8 m-auto">
+                  <section>
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h2 className="font-weight-normal mb-4">Building value for our community through education.</h2>
                       <p>The SeedInvest Academy is a separate experience from the rest of the platform. The Academy is meant to be a fun, approachable space for new investors to learn about Equity Crowdfunding. The cover images are bold, colorful, and playful.</p>
                     </div> 
-                    <div className="section-content col-12 col-lg-11 m-auto mb-5">
+                    <div className="section-content col-12 col-lg-11 mx-auto mt-7">
                       <div className="row">
                         <div className="col-9 mb-5">
                           <p className="lead text-secondary">Official Academy</p>
@@ -455,19 +455,19 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
-                    <div className="section-header mb-5 mb-md-7 col-11 col-lg-8 m-auto">
+                  <section className="mb-7">
+                    <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Product Impact</h1>
                       <p>As a result of many hours of careful research, brainstorming, planning, prototyping, and developing, the SeedInvest platform is a bold representation of the innovative companies that raise with us, with subtle elements communicating sophistication and promoting user trust. These updates have been live on SeedInvest since 2016 and have helped grow the company to its current status as one of the leading equity crowdfunding sites in the United States.</p>
                     </div>                
                   </section>
                   <section>
-                    <div className="section-content mb-5 col-11 col-lg-10 m-auto mb-7">
+                    <div className="section-content mt-7 col-11 col-lg-10 mx-auto mb-7">
                       <img src={HomeFull} alt="homepagefull" />
                     </div>
                   </section>
                   <section>
-                    <div className="section-content mb-5 col-11 col-lg-8 m-auto opacity-20">
+                    <div className="section-content mt-7 col-11 col-lg-8 mx-auto opacity-20">
                       <div className="row">
                         <div className="col">
                           <div className="snippet">
@@ -497,7 +497,7 @@ class WorkOne extends Component {
                     </div>
                   </section>
                   <section>
-                    <div className="section-content mb-5 col-11 col-lg-8 m-auto">
+                    <div className="section-content mt-5 col-11 col-lg-8 mx-auto">
                       <div className="row">
                         <div className="col">
                           <div className="snippet">
@@ -536,7 +536,7 @@ class WorkOne extends Component {
             <div className="section-content">
               <div className="row">
                 <div className="col-12">
-                  <section className="mb-5">
+                  <section className="mb-7">
                     <div className="section-header mb-5 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Lessons Learned</h1>
                     </div>
