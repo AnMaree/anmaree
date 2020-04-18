@@ -25,10 +25,6 @@ import Gantt from '../imgs/work-three/gantt-chart.png';
 import Process from '../imgs/work-three/process.png';
 import CreateEvent from '../imgs/work-three/create-event.png';
 
-import workCoverOneSmall from '../imgs/work-one-cover-small.jpg';
-import workCoverFourSmall from '../imgs/work-four-cover-small.jpg';
-import workCoverFiveSmall from '../imgs/work-five-cover-small.jpg';
-
 class WorkOne extends Component {
   render() {
     return (
@@ -36,6 +32,7 @@ class WorkOne extends Component {
         <div className="hero-header">
           <div className="hero-header-img position-relative overflow-hidden text-center bg-lime">
             <div class="container col">
+              <div className="hero-next"><Link to="/work/4">→</Link></div>
               <div className="hero-back"><a href="/work/2">←</a></div>
             </div>
             <div class="animated fadeIn">

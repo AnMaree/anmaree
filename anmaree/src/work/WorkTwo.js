@@ -39,6 +39,10 @@ import WSWelcome from '../imgs/work-two/wireframes/ws-welcome-profile-builder.jp
 import WSProfileBuilder from '../imgs/work-two/wireframes/ws-profile-builder.jpg';
 import WSPerformance from '../imgs/work-two/wireframes/ws-campaign-performance-v2.jpg';
 
+import WSDDTracker from '../imgs/work-two/wireframes/ws-dd.jpg';
+import WSUpdates from '../imgs/work-two/wireframes/ws-updates.jpg';
+import WSUpdatesPopUp from '../imgs/work-two/wireframes/ws-updates-popup.jpg';
+
 class WorkOne extends Component {
   render() {
     return (
@@ -338,7 +342,7 @@ class WorkOne extends Component {
                   <section className="mb-5">
                     <div className="section-header col-11 col-lg-8 mx-auto">
                       <h1 className="display-4 mb-4">Prototyping The Application Process</h1>
-                      <p>During the ideation phase, I created low-fidelity wireframes to gain stakeholder buy-in. Our main goal was to simplify our forms and make them more delightful to increase conversion. When thinking of this, I explored several form layouts types, single-page, one-question-per-page, and a side-bar layout. Ultimately, the team decided that a single-page layout was well suited for the pre-qualification form because it was simple and quick to complete, while the and the one-question-per-page layout was well suited for the application because it opened up more room for education and delightful elements such as large icon buttons.</p>
+                      <p>During the ideation phase, I created low-fidelity wireframes to gain stakeholder buy-in. Our main goal was to simplify our forms and make them more delightful to increase conversion. When thinking of this, I explored several layout types like single-page, one-question-per-page, and a side-bar layout. Ultimately, the team decided that a single-page layout was well suited for the pre-qualification form because it was simple and quick to complete, while the and the one-question-per-page layout was well suited for the application because it opened up more room for education and delightful elements such as large icon buttons.</p>
                     </div> 
                     <div className="section-content mt-7">
                       <div className="row">
@@ -480,13 +484,43 @@ class WorkOne extends Component {
                       </div>
                     </div>
                   </section>
-                  <section>
+                  <section className="mb-7">
+                    <div className="section-content mt-7">
+                      <div className="row">
+                        <div className="col-12">
+                          <div className="img-wrapper mb-5">
+                            <p className="lead text-secondary">Workspace: Due Diligence Tracker</p>
+                            <img className="homepage-wire-img box-shadow border" src={WSDDTracker} alt="homepage" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="mb-7">
                     <div className="section-content mt-7">
                       <div className="row">
                         <div className="col-12">
                           <div className="img-wrapper mb-5">
                             <p className="lead text-secondary">Workspace: Campaign Performance</p>
                             <img className="homepage-wire-img box-shadow border" src={WSPerformance} alt="homepage" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section>
+                    <div className="section-content mt-7">
+                      <div className="row">
+                        <div className="col-12">
+                          <div className="img-wrapper mb-5">
+                            <p className="lead text-secondary">Campaign Updates</p>
+                            <img className="homepage-wire-img box-shadow border" src={WSUpdates} alt="homepage" />
+                          </div>
+                        </div>
+                        <div className="col-12">
+                          <div className="img-wrapper mb-5">
+                            <p className="lead text-secondary">Campaign Update</p>
+                            <img className="homepage-wire-img box-shadow border" src={WSUpdatesPopUp} alt="homepage" />
                           </div>
                         </div>
                       </div>
