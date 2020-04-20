@@ -84,7 +84,7 @@ class WorkOne extends Component {
                     </div>
                     <div className="section-content mt-5">
                       <p>SeedInvest is an Equity Crowdfunding platform that connects entrepreneurs with investors. As a result of the Jobs Act of 2012, startup investing was opened to 240+ million Americans who previously could not invest. The new exemptions allowed SeedInvest to help startups turn their most ardent supporters and customers into passionate investors for the first time.</p>
-                      <p>Since our original target customer was the sophisticated accredited investor, it was clear that we needed to define a visual language that would inspire new investors to engage with Equity Crowdfunding. We also needed to design and build new features that would increase engagement and educate new investors so they could feel confident making an investment decision for the first time.</p>
+                      <p>Since our original target customer was the sophisticated accredited investor, it was clear we needed to define a visual language that would inspire new potential customers to become investors in Equity Crowdfunding. We also needed to design and build new features that would increase engagement and educate new investors so they could feel confident making an investment decision for the first time.</p>
                       <p>To maintain consistency throughout this process, we created a design system guided by a set of core principles and made up of reusable components. This effort helped to speed up the design process while bridging visual language gaps across teams.</p>
                     </div>                  
                   </section>

@@ -82,7 +82,7 @@ class App extends Component {
                     </ul>
                   </footer>
                   <footer className="border-top footer bg-light py-4 text-center">
-                    <h5>Designed and coded with <img className="react-icon" src={react} alt="react" /> by AnMaree.</h5>
+                    <h5>Designed and coded with ♥ by AnMaree.</h5>
                   </footer>
                 </ScrollToTop>
               </div>
