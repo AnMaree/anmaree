@@ -310,7 +310,7 @@ class WorkOne extends Component {
                               <h4 className="section-title display-4 font-weight-bold">#4</h4>
                             </div>
                             <div className="section-content">
-                              <p>Other startups at the event were unaware of the feature we built for them.</p>
+                              <p>The event helps us get more partnerships, but the product was not reuseable.</p>
                             </div>
                           </section>
                         </div>
